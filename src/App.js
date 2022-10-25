@@ -1,16 +1,27 @@
-import Navbar from "./components/Navbar";
-// eslint-disable-next-line no-undef
-const slider = require("./images/3.jpg");
+/* eslint-disable no-undef */
+import Navigation from "./components/Navbar";
+import Slidebar from "./components/Slidebar";
+import './style/app.css'
+// const slider = require("./images/1.jpg");
+const icon = require("./images/icons/icon3.png")
 
 function App() {
   return (
-    <div>
+    <div id="container">
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossOrigin="anonymous"
+      />
       <header>
-        <Navbar />
+        <Navigation />
+        <img id="icon" src={icon} alt="" />
       </header>
-      <main>
+      <main id="main-container">
         {/* slider */}
-        <img src={slider} alt="" />
+        <Slidebar />
+        {/* <img src={slider} alt="" /> */}
         {/* gallery */}
         {/* about us */}
       </main>

@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 import Navigation from "./components/Navbar";
 import Slidebar from "./components/Slidebar";
+import Cards from "./components/Cards";
 import './style/app.css'
 // const slider = require("./images/1.jpg");
 const icon = require("./images/icons/icon3.png")
@@ -19,11 +20,10 @@ function App() {
         <img id="icon" src={icon} alt="" />
       </header>
       <main id="main-container">
-        {/* slider */}
         <Slidebar />
-        {/* <img src={slider} alt="" /> */}
-        {/* gallery */}
-        {/* about us */}
+        <h1 className="sectionHeadline">Dates Catagory</h1>
+        <Cards />
+        <h1 className="sectionHeadline">About Us</h1>
       </main>
       <footer>
 

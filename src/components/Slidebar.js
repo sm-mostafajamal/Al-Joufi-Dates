@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import Carousel from 'react-bootstrap/Carousel';
 
 function Slidebar() {

@@ -28,7 +28,7 @@ function App() {
         <AboutUs />
       </main>
       <footer>
-        <h1>Call Us</h1>
+        <h1>Call US</h1>
         <h1>+966 551007068</h1>
         <h3>Address: Al Ula ,Al Madina Munaoara, Kindom of Saudi Arabia.</h3>
       </footer>

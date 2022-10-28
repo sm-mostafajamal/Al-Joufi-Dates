@@ -2,10 +2,10 @@
 import Navigation from "./components/Navbar";
 import Slidebar from "./components/Slidebar";
 import Cards from "./components/Cards";
+import AboutUs from "./components/AboutUs";
 import './style/app.css'
 // const slider = require("./images/1.jpg");
-const icon = require("./images/icons/icon3.png")
-
+// const logo = require("./images/icons/logo.png")
 function App() {
   return (
     <div id="container">
@@ -17,16 +17,20 @@ function App() {
       />
       <header>
         <Navigation />
-        <img id="icon" src={icon} alt="" />
+        <h1 id="logo">Al-Joufi Dates Logo</h1>
+        {/* <img id="icon" src={logo} alt="Al Joufi Dates logo" /> */}
       </header>
       <main id="main-container">
-        <Slidebar />
+        <Slidebar/>
         <h1 className="sectionHeadline">Dates Catagory</h1>
         <Cards />
         <h1 className="sectionHeadline">About Us</h1>
+        <AboutUs />
       </main>
       <footer>
-
+        <h1>Call Us</h1>
+        <h1>+966 551007068</h1>
+        <h3>Address: Al Ula ,Al Madina Munaoara, Kindom of Saudi Arabia.</h3>
       </footer>
     </div>
   );

@@ -31,7 +31,7 @@ function Cards() {
       {datesDetails.map((dates, idx) => (
         <Col key={idx}>
           <a href='#test' className='card-link'>  
-          <Card>
+          <Card className='catagory'>
             <Card.Img variant="top" src={require(`../images/Dates/${dates.image}`)}/>
             <Card.Body>
               <Card.Title>{dates.name}</Card.Title>

@@ -13,7 +13,7 @@ function Navigation() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#home">Products</Nav.Link>
             <Nav.Link href="#link">Gallery</Nav.Link>
-            <Nav.Link href="#link">About Us</Nav.Link>
+            {/* <Nav.Link href="#link">About Us</Nav.Link> */}
             <Nav.Link href="#link">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

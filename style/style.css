@@ -1,12 +1,4 @@
-/* Header */
-#logo {
-  text-align: center;
-  padding: 40px 0;
-}
 body {
-  margin: 0;
-}
-#container {
   background-image: url(../images/c.jpg);  
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,9 +9,12 @@ body {
   /* position: fixed; */
   overflow: auto;
 }
+/* Header */
 .navbar {
   margin-top: 30px;
   opacity: 0.8;
+  position: sticky;
+  left: 0;
 }
 .navbar-nav{
   /* justify-content: center; */
@@ -34,13 +29,11 @@ body {
 .navbar-brand {
  display: none;   
 }
-#icon {
-  display: block;
-  margin: 15px auto;
-  width: 20%;
-}
-
 /* Main */
+#logo {
+  text-align: center;
+  padding: 40px 0;
+}
 #main-container {
   background-color: rgba(0, 0, 0, 0.8);
   width: 80%;
@@ -53,12 +46,17 @@ body {
   height: 100%;
   margin: auto;
 }
+.carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon {
+  display: none !important;
+  
+}
 .d-block {
   border-radius: 1%;
   margin-top: 50px;
   height: 500px;
 
 }
+
 .sectionHeadline {
   color: white;
   text-align: center;
@@ -67,51 +65,60 @@ body {
   width: 90%;
   padding-bottom: 20px;
 }
-.g-4 {
-  justify-content: center;
+
+/* Catagory */
+
+/* .row {
+  margin: auto;
+  justify-content: center !important;
 }
+
 .col {
-  width: 45% !important;
+  margin: auto;
+  width: 80% !important;
+} */
+.catagory-cards {
+  width: 92%;
+  margin: auto;
 }
 .card-link {
   text-decoration: none;
   color: black;
 }
-.catagory:hover {
-  background-color: rgba(227, 222, 167, 0.3);
-  color: black;
-  transition: 0.4s ease-in;
-}
+
 .card-img-top {
-  height: 300px;
+  height: 400px;
+  border-radius: 10px;
 }
-.card-body {
-    background-color: rgba(227, 222, 167, 0.2);
+.catagory {
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  text-align: center;
+}
+.catagory:hover {
 
+  color: rgb(161, 161, 161);
+  transition: 0.2s ease-in;
 }
 
+/* cover */
 .cover {
   width: 90%;
   margin: auto;
-  margin-bottom: 40px;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  padding-bottom: 25px;
+
 }
 .coverImg {
   height: 500px;
 }
-h6 {
+strong {
   text-align: center;
-  padding-top: 30px;
 }
 footer {
   margin: 60px 0;
   text-align: center;
-}
-@media only screen and (max-width: 600px) {
-  .navbar-brand {
-    display: contents;
-  }
-  .container{
-    width: 100%;
-    text-align: center;
-  }
 }

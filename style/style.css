@@ -185,7 +185,7 @@ hr {
   margin: 50px auto;
 }
 
-/* Mabroom */
+/* gallery */
 .dates-details {
   width: 90%;
   margin: auto;
@@ -198,3 +198,10 @@ hr {
   color: white;
   line-height: 1.8rem;
 }
+
+/* contact */
+#contact {
+  color: white;
+  text-align: center;
+}
+

@@ -15,7 +15,8 @@
             <div class="container-fluid">
               <!-- <a class="navbar-brand" href="#">Navbar</a> -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                MENU
+                <!-- <span class="navbar-toggler-icon"></span> -->
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
@@ -32,40 +33,48 @@
         </header>
         
         <main id="main-container">
-          <article id="contact">
-            <h2 class="major">Get In Touch</h2>
-            <form action="mailto:XYZ@email.com" enctype="text/plain">
+
+          <section id="contact">
+            <h2 class="major">Get In <span class="highlight">Touch</span></h2>
+            <form action="mailto:aljoufidates@gmail.com" enctype="text/plain">
+              <p>Reach out and let's start a conversation!</p>
                 <div class="fields">
-                    <p>Reach out and let's start a conversation!</p>
-                    <div class="field half">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="field half">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" />
-                    </div> 
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
-                    </div>
+                  <!-- <div class="mb-3 formLabel">
+                    <label for="name" class="form-label">Names <span style="color: red;">*</span></label>
+                    <input type="text"  class="form-control" id="name" placeholder="Name" required>
+                  </div>
+                  <div class="mb-3 formLabel">
+                    <label for="number" class="form-label">Phone Number <span style="color: red;">*</span></label>
+                    <input type="number"  class="form-control" id="number" placeholder="Tel" required>
+                  </div>
+                  <div class="mb-3 formLabel">
+                    <label for="email" class="form-label">Email Address <span style="color: red;">*</span></label>
+                    <input type="email"  class="form-control" id="email" placeholder="Email Address" required>
+                  </div>
+                                                      
+                  <div class="mb-3 formLabel">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" placeholder="Message" id="message" rows="3"></textarea> -->
+                  <!-- </div> -->
+
+                  <button type="submit" class="btn btn-color">CLICK HERE TO MAIL</button>
                 </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Say Hello!" class="primary" /></li>
-                    <li><input type="reset" value="Reset" /></li>
-                </ul>
+                <!-- <section class="actions">
+                  <button type="reset" class="btn btn-color">Reset</button>
+                </section> -->
 
             </form>
-        </article>
+        </section>
         </main>
 
         <footer class="highlight">
           <div class="footerDetails">
-            <h1 class="footerDesign" style="width:20%;margin:auto;border-radius:10px;">Call US</h1>
-            <h1>+966 551007068</h1>
-            <h3 style="font-style: italic;">Address: Al Ula ,Al Madina Munaoara, Kindom of Saudi Arabia.</h3>
-            <h6>AL-Joufi Dates © Copyright 2022. All rights reserved. </h6>
+            <h1 class="footerDesign">Call US</h1>
+            <h1 class="info">+966 55 100 7068</h1>
+            <h3 class="info"><strong>Mail:</strong> aljoufidates@gmail.com</h3>
+            <h3 class="info" style="font-style: italic;"><strong>Address:</strong> Al Ula, Al Madina Munaoara, <br> Kingdom of Saudi Arabia.</h3>
           </div>
+          <p style="font-size:small;">AL-Joufi Dates © Copyright 2022. All rights reserved. </p>
         </footer>
     </div>
 

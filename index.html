@@ -6,11 +6,11 @@
     <title>Al-Joufi Dates</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div id="container">
       <header>
-
         <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-dark">
           <div class="container-fluid">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -19,10 +19,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Products</a>
-                <a class="nav-link" href="#">Gallery</a>
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+                <a class="nav-link" aria-current="page" href="./aboutUs.html">ABOUT US</a>
+                <a class="nav-link" href="./products.html">PRODUCTS</a>
+                <a class="nav-link" href="./gallery.html">GALLERY</a>
+                <a class="nav-link" href="./contact.html">CONTACT</a>
               </div>
             </div>
           </div>
@@ -34,13 +35,13 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./images/1.jpg" class="d-block w-100" alt="...">
+              <img src="./images/Cover/1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./images/2.jpg" class="d-block w-100" alt="...">
+              <img src="./images/Cover/2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./images/3.jpg" class="d-block w-100" alt="...">
+              <img src="./images/Cover/3.png" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -53,79 +54,94 @@
           </button>
         </div>
         
-        <h1 class="sectionHeadline">Dates Catagory</h1>
 
-        <div class="row row-cols-1 row-cols-md-2 g-4 catagory-cards">
-          <a href="" class="card-link">
-            <div class="col">
-              <div class="card catagory">
-                <img src="./images/Dates/Mabroom.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mabroom</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="" class="card-link">
-            <div class="col">
-              <div class="card catagory">
-                <img src="./images/Dates/Mariam.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mariam</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="" class="card-link">
-            <div class="col">
-              <div class="card catagory">
-                <img src="./images/Dates/mashrook.webp" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Mashrook</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="" class="card-link">
-            <div class="col">
-              <div class="card catagory">
-                <img src="./images/Dates/mariam1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          </a>
-        <h1 class="sectionHeadline">About Us</h1>
-
+        <h1 class="sectionHeadline">About Us <span class="highlight">Al-JOUFI</span></h1>
         <div class="card cover mb-3">
-          <img src="./images/Cover/cover.webp" class="card-img-top" alt="...">
+          <img src="./images/Cover/cover.webp" class="card-img-top coverImg" alt="...">
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum accusamus fugiat, consectetur aut, enim est velit a obcaecati porro alias voluptas modi cumque, cupiditate aliquid dolorem eaque repellat exercitationem consequatur?</p>
-            <strong>Export countries/clients: United kingdom,  United States of America, Turkey, Dubai, India, Bangladesh, Pakistan.</strong>
+            <article class="article-text">
+              Al-Joufi Dates Factory, specializes in the manufacture and export of the finest quality dates to any country in the world sourced from the Kingdom of Saudi Arabia. We have experience in sourcing the finest date products in the region through quality control system and administrative protocols. The company has established in year 2020. Currently our clients are <strong>
+                United kingdom,  United States of America, Turkey, Dubai, India, Bangladesh, Pakistan.
+              </strong> 
+            </article>
           </div>
         </div>
-       
+
+        <h1 class="sectionHeadline">EXPORTING <span class="highlight">COUNTRIES</span></h1>
+        <div class="card cover mb-3">
+          <img src="./images/Cover/countries.jpg" class="card-img-top coverImg" alt="...">
+          <div class="card-body" style="padding-top: 40px;">
+            <h5 class="card-text">We have the capability to make exporting of Dates to all the continents in the World. Currently our clients are <br>
+              <strong>United kingdom,  United States of America, Turkey, Dubai, India, Bangladesh, Pakistan.</strong></h5>
+          </div>
+        </div>
+
+        <h1 class="sectionHeadline">WHY CHOOSING <span class="highlight">US</span></h1>
+        <div id="choosing-us">
+          <div class="card mb-3 choose-cards">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="./images/icons/quality.png" class="img-fluid rounded-start footer-icons" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body cardBody">
+                  <h5 class="card-title">Quality & Excellence are Simply Delivered</h5>
+                  <p class="card-text choosing-us-text">We have committed ourselves to obtain the required quality marks to deliver the best dates in aspects of health & production to the regional and international markets all over the world.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 choose-cards">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="./images/icons/products.png" class="img-fluid rounded-start footer-icons" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body cardBody">
+                  <h5 class="card-title">Variation of Products</h5>
+                  <p class="card-text choosing-us-text">AL-Joufi Factory is cultivated by introducing wide range of Dates products to its customers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 choose-cards">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="./images/icons/price.png" class="img-fluid rounded-start footer-icons" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body cardBody">
+                  <h5 class="card-title">Competitive Price Advantages</h5>
+                  <p class="card-text choosing-us-text">In the longer term, we were looking at how to ensure that Al-Joufi Dates Factory would remain competitive in comparison with all the competitors in Saudi Arabia and assure that we still deliver the High Quality of products assert.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 choose-cards">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="./images/icons/growth.png" class="img-fluid rounded-start footer-icons" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body cardBody">
+                  <h5 class="card-title">Growth , Expansion and Development</h5>
+                  <p class="card-text choosing-us-text">We are in a non-stop state of development and investment in our specialized and professional sales team, administrative protocols and High Quality control systems and on advance machines.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
-      <footer>
-        <h1>Call US</h1>
-        <h1>+966 551007068</h1>
-        <h3>Address: Al Ula ,Al Madina Munaoara, Kindom of Saudi Arabia.</h3>
+      <footer class="highlight">
+        <div class="footerDetails">
+          <h1 class="footerDesign" style="width:20%;margin:auto;border-radius:10px;">Call US</h1>
+          <h1>+966 551007068</h1>
+          <h3 style="font-style: italic;">Address: Al Ula ,Al Madina Munaoara, Kindom of Saudi Arabia.</h3>
+          <h6>AL-Joufi Dates © Copyright 2022. All rights reserved. </h6>
+        </div>
       </footer>
     </div>
-
-
-
-
-
-
-
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 body {
   background-image: url(../images/c.jpg);  
   background-repeat: no-repeat;
@@ -40,9 +41,10 @@ body {
   height: 70%;
   margin: auto;
   border-radius: 15px;
+  padding: 10px 0;
 }
 .carousel {
-  width: 90%;
+  width: 98%;
   height: 100%;
   margin: auto;
 }
@@ -52,7 +54,6 @@ body {
 }
 .d-block {
   border-radius: 1%;
-  margin-top: 50px;
   height: 500px;
 
 }
@@ -68,15 +69,6 @@ body {
 
 /* Catagory */
 
-/* .row {
-  margin: auto;
-  justify-content: center !important;
-}
-
-.col {
-  margin: auto;
-  width: 80% !important;
-} */
 .catagory-cards {
   width: 92%;
   margin: auto;
@@ -88,18 +80,25 @@ body {
 
 .card-img-top {
   height: 400px;
-  border-radius: 10px;
 }
 .catagory {
-  background-color: transparent;
-  color: white;
+  border: none;
   border-color: transparent;
   text-align: center;
+  background-color:#f4f0d6;
+  color: #422411;
+}
+.card-title {
+  font-weight: bold;
+  font-size:larger;
+}
+.cardBody {
+  padding: 5px;
 }
 .catagory:hover {
-
-  color: rgb(161, 161, 161);
-  transition: 0.2s ease-in;
+  background-color: #422411;
+  color: #f4f0d6;
+  transition: 0.5s ease-in;
 }
 
 /* cover */
@@ -115,10 +114,87 @@ body {
 .coverImg {
   height: 500px;
 }
-strong {
+.card-text {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.article-text {
+  line-height: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.highlight {
+  background-color:#f4f0d6;
+  color: #422411;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.aboutUs {
+  width: 90%;
+  margin: auto;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  padding-bottom: 60px;
+}
+#choosing-us {
+  width: 80%;
+  margin: auto;
+  color: whitesmoke;
+  padding-bottom: 60px;
+}
+.choosing-us-text {
+  text-align: left;
+}
+.choose-cards {
+  background: transparent;
+  border: none;
+}
+.cardBody{
+  padding-left: 40px;
 }
 footer {
-  margin: 60px 0;
+  width: 80%; 
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 8rem auto;
+  border-radius: 15px;
+}
+.footerDetails {
+  padding: 50px;
+}
+.footerDesign {
+  color:#f4f0d6;
+  background-color: #422411;
+}
+
+/* Product page */
+.productCard {
+  width: 90%;
+  margin: auto;
+  background: transparent;
+  color: white;
+}
+.productCover {
+  width: 98%;
+  margin: auto;
+}
+hr {
+  color: rgba(255, 255, 255, 0.7);
+  width: 90%;
+  margin: 50px auto;
+}
+
+/* Mabroom */
+.dates-details {
+  width: 90%;
+  margin: auto;
+}
+.date-title {
+  color: #f4eed5;
+  padding: 20px 0;
+}
+.description {
+  color: white;
+  line-height: 1.8rem;
 }

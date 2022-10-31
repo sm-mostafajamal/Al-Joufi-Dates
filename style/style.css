@@ -29,11 +29,14 @@ body {
 .navbar-brand {
  display: none;   
 }
-/* Main */
+
 #logo {
-  text-align: center;
-  padding: 40px 0;
+  display: flex;
+  width: 20%;
+  margin: auto;
+  padding: 20px 0;
 }
+/* Main */
 #main-container {
   background-color: rgba(0, 0, 0, 0.8);
   width: 80%;
@@ -251,6 +254,9 @@ input[type=number] {
   .navbar-toggler:focus {
     box-shadow: none;
   }
+  #logo {
+    width: 40%;
+  }
   .d-block, .coverImg {
     height: 200px;
   }
@@ -307,6 +313,9 @@ input[type=number] {
   }
   .navbar-toggler:focus {
     box-shadow: none;
+  }
+  #logo {
+    width: 30%;
   }
   .d-block, .coverImg {
     height: 350px;
